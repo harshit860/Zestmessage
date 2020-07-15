@@ -1,9 +1,13 @@
 import React from 'react'
+import MessageView from './Message/MessageView'
+import MessageSend from './Message/MessageSend'
 
-export default function Main() {
+function Main() {
     return (
-        <div>
-            
+        <div className="main">   
+                <MessageView />
+                
         </div>
     )
 }
+export default  Main;
